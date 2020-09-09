@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-class NewsItem extends Component {
+
+class PersonalsItem extends Component {
     chuyenDoiURL = (str) => {
         // Chuyển hết sang chữ thường
         str = str.toLowerCase();
@@ -26,20 +27,17 @@ class NewsItem extends Component {
 
     render() {
         return (
-            <div className="col-md-4">
-                <div className="card-deck">
-                    <div className="card">
-                        <Link to={"/news/" + this.chuyenDoiURL(this.props.tieuDe) + "." + this.props.tinId + ".html"}><img className="card-img-top" src={this.props.anh} alt="for react router" /></Link>
-                        <div className="card-body">
-                            <h4 className="card-title">{this.props.tieuDe}</h4>
-                            <p className="card-text">{this.props.trichDan}</p>
-                        </div>
+            <div className="col-md-4 card mb-4">
+                <div className={this.props.bg} >
+                <Link to={"/personals/" + this.chuyenDoiURL(this.props.tieuDe) + "." + this.props.tinId + ".html"}><img className="card-img-top" src={this.props.anh} /></Link>
+                    <div className="card-body ">
+                        <h4 className="card-title">{this.props.tieuDe}</h4>
+                        <p className="card-subtitle text-right">{this.props.trichDan}</p>
                     </div>
                 </div>
-                <hr />
             </div>
         );
     }
 }
 
-export default NewsItem;
+export default PersonalsItem;

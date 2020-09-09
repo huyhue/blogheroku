@@ -47,7 +47,7 @@ class Contact extends Component {
   render() {
     if (this.state.isRedirect) {
       console.log(this.getGiaTri());  //hiển thị nội dung nhập
-      return <Redirect to="/" />; //chuyển hướng tới trang chủ (home)
+      return <Redirect to="/contact1" />; 
     }
     return (
       <div>

@@ -6,13 +6,14 @@ class lienhe extends Component {
             
 <div id="code" className="my-5">
   <div className="container">
+  <a class="btn btn-primary " href="/contact">Send Contact</a>
     <div className="row">
-      <div className="col-md-12 mb-5">
+      <div className="col-md-12 mb-5 mt-2">
         <h1 className="text-center">MỤC TIÊU CUỘC SỐNG</h1>
       </div>
     </div>
     <div className="row">
-      <div className="col-md-4 py-3">
+      <div className="col-4 py-3">
         {/* Kích hoạt modal */}
         <button className="btn btn-danger" data-toggle="modal" data-target="#demo-modal1">PHẬT GIÁO</button>
         {/* Cấu trúc Model */}
@@ -39,7 +40,7 @@ class lienhe extends Component {
           </div>
         </div>
       </div>
-      <div className="col-md-4 py-3">
+      <div className="col-4 py-3">
         {/* Kích hoạt modal */}
         <button className="btn btn-info" data-toggle="modal" data-target="#demo-modal2">LẬP TRÌNH</button>
         {/* Cấu trúc Model */}
@@ -67,7 +68,7 @@ class lienhe extends Component {
           </div>
         </div>
       </div>
-      <div className="col-md-4 py-3">
+      <div className="col-4 py-3">
         {/* Kích hoạt modal */}
         <button className="btn btn-success" data-toggle="modal" data-target="#demo-modal3">TRẢI NGHIỆM</button>
         {/* Cấu trúc Model */}

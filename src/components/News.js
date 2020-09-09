@@ -14,8 +14,8 @@ class News extends Component {
                     <h1 className="text-center m-5 font-weight-bold">MY NEWS</h1>
                   </div>
                 </div>
-              
             </div>
+            
           {/* begin tintuc */}
           <div className="container">
             <div className="row mt-3">

@@ -15,7 +15,6 @@ class NewsDetail extends Component {
                     <h1 className="text-center font-weight-light">MY DETAIL NEWS</h1>
                   </div>
                 </div>
-              
             </div>
           {/* begin tintuc */}
           {
