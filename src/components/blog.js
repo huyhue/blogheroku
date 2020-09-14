@@ -8,8 +8,8 @@ class blog extends Component {
     <div className="col-md-6">
       <h1>Tận hưởng cuộc sống hàng ngày</h1>
       <p>Tận hưởng cuộc sống hàng ngày bằng những ly cafe vào buổi sáng, hít thở không khí trong lành</p>
-      <a href className="express-btn">JOIN FREE</a>
-      <a href className="express-btn">EXPLORE MORE</a>
+      <a href="/login" className="express-btn">LOGIN</a>
+      <a href="/Signup" className="express-btn">SIGN UP</a>
     </div>
     <div className="col-md-6 text-center">
       <img src="https://huyhue.github.io/bloghuyhue/nobg.png" className="img-fluid" />

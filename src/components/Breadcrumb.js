@@ -15,6 +15,9 @@ class Breadcrumb extends Component {
                     <li className="breadcrumb-item active">
                         <a href="/videos">Videos</a>
                     </li>
+                    <li className="breadcrumb-item active">
+                        <a href="/cau">Sentences</a>
+                    </li>
                 </ol>
             </nav>
             </div>

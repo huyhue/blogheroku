@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import dl from './dataPersonal.json';
 import PersonalsRelated from './PersonalsRelated';
 import Breadcrumb from './Breadcrumb';
+import Binhluan from './comment/Binhluan';
 
 class PersonalsDetail extends Component {
     render() {
@@ -9,15 +10,7 @@ class PersonalsDetail extends Component {
         return (
           <div>
             <div>
-                <Breadcrumb/>
-            {/* <div className="container">
-                  <div className="row">
-                      <div className="col-md-12">
-                        <h1 className="text-center font-weight-light">MY DETAIL NEWS</h1>
-                      </div>
-                    </div>
-                </div> */}
-             
+                <Breadcrumb/>          
               {
                 dl.map((value, key) => {
                   if (value.id === parseInt(this.props.match.params.id, 20)) {
@@ -67,6 +60,7 @@ class PersonalsDetail extends Component {
                 </div>
               </div>
               {/* end  tintuc */}
+              <Binhluan name="personalsdetail"/>
             </div>
           </div>
         );

@@ -12,4 +12,7 @@ import * as firebase from 'firebase';
 
    firebase.initializeApp(firebaseConfig);
    export const noteData = firebase.database().ref('youtube');
-  
+   export const noteData1 = firebase.database().ref('dataForNote');
+   export const comment = firebase.database().ref('comment/personal');
+   export const comment1 = firebase.database().ref('comment/new');
+   export const semesterDB = firebase.database().ref('semesterDB');

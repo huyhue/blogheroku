@@ -1,17 +1,10 @@
 import React, { Component } from 'react';
-
-class Home extends Component {
+class Signup extends Component {
+  
   render() {
     return (
       <div>
-        {/* <div className="login">
-          <form className="box" action="index.html" method="post">
-            <h1>Login</h1>
-            <input type="text" name placeholder="Username" />
-            <input type="password" name placeholder="Password" />
-            <input type="submit" name defaultValue="Login" />
-          </form>
-        </div> */}
+        
         <div className="dangky1">
           <div className="container dangky">
             <div className="header">
@@ -57,4 +50,6 @@ class Home extends Component {
   }
 }
 
-export default Home;
+
+
+export default Signup;

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import dl from './dulieu.json';
 import NewsRelated from './NewsRelated';
 import Breadcrumb from './Breadcrumb';
+import Binhluan from './comment/Binhluan';
 class NewsDetail extends Component {
   render() {
     var dem = 1;
@@ -35,7 +36,7 @@ class NewsDetail extends Component {
             })
           }
 
-          <div className="container">
+          <div className="container mb-5">
             <h3 className="card-title text-center">My Retated News</h3>
             <div className="row">
               <div className="col-12">
@@ -58,6 +59,7 @@ class NewsDetail extends Component {
             </div>
           </div>
           {/* end  tintuc */}
+          <Binhluan name="newsdetail"/>
         </div>
       </div>
     );

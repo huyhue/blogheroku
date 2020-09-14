@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "username":"huyhue",
+        "password":"123",
+        "name":"Tong Phuoc Gia Huy",
+        "company":"FPT University",
+        "notes":"/noteApp"
+    },
+    {
+        "id": 2,
+        "username":"lechung",
+        "password":"123",
+        "name":"Le Hong Chung",
+        "company":"Dai Hoc Nong Nghiep"
+    },
+    {
+        "id": 3,
+        "username":"vunguyen",
+        "password":"123",
+        "name":"Nguyen Anh Vu",
+        "company":"FPT University"
+    },
+    {
+        "id": 4,
+        "username":"riopham",
+        "password":"123",
+        "name":"Pham Tran Nhat Truong",
+        "company":"Cao Dang Cong Nghiep"
+    },
+    {
+        "id": 5,
+        "username":"lengoc",
+        "password":"123",
+        "name":"Le Nguyen My Ngoc",
+        "company":"Duy Tan University"
+    }
+]
